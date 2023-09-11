@@ -10,25 +10,104 @@ body{
     background: #301f15;
     width: auto;
     height: 300px;
+    justify-content: space-around;
 }
 
 .nav{
-    display: flex;
+    padding: 3rem 0 0 5rem;
+    display: inline;
     position: relative;
-    justify-self: center;
-    align-content: center;
-    padding: 3rem;
+    justify-self: start;
+    align-content: start;
+    border-radius: 5px;
+    z-index: 1;
 }
 
 .nav a {
     justify-content: center;
-    padding: 0 1rem 0 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background-color: #c1976a;
+    color: #251503;
+}
+
+
+.nav a:hover{
+    background-color: #251503;
+    text-decoration: none;
+    color: #c1976a;
+}
+
+.nav .active{
+    background-color: #251503;
+    text-decoration: none;
+    color: #c1976a;
+    border-radius: 5px;
 }
 
 .coffee-cup {
+    margin-left: 4rem;
+    float: right;
     position: relative;
     width: auto;
     height: 300px;
-    float: right;
 }
 
+#coffee-mood {
+    color: #c1976a;
+    position: relative;
+    float: center;
+    bottom: 0;
+}
+
+#discover{
+    background: #c1976a;
+    padding: 20px; 
+    align-content: end;
+}
+
+.drink{
+    
+    width: 300px;
+    height: 300px;
+    background: #251503;
+    border-radius: 20px;
+    
+}
+
+.col-md-8 h2, h3, p{
+    color: #251503;
+}
+
+.col-md-8 h2{
+    font-family: 'tahoma';
+    font-weight: bolder;
+    font-size: 5ch;
+}
+
+.col-md-8 h3{
+    font-size: 4ch;
+    font-weight: 100;
+}
+
+.button{
+    padding: 5px 20px 5px 20px;
+    background: #251503;
+    color: #c1976a;
+    border: none;
+    transition: all 50ms;
+}
+
+.button:hover{
+    color: white;
+    background-color: #301f15;
+}
+
+#card-container{
+    background: #655546;
+    padding: 20px;
+}
+
+.review-cup{
+    width: 50px;
+    height: auto;
+}
