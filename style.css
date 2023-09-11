@@ -105,9 +105,108 @@ body{
 #card-container{
     background: #655546;
     padding: 20px;
+    
+   
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.review{
+    color: white;
+    text-align: center;
+    font-family: 'tahoma';
+    font-size: 5ch;
+    font-weight: bold;
+}
+
+.review-h5{
+    color: #cfc1b1;
+    text-align: center;
 }
 
 .review-cup{
     width: 50px;
     height: auto;
 }
+
+.card-div{
+    background: #c1976a;
+    width: 300px;
+    height: min-content;
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    box-shadow: 3px 0px 18px 12px rgba(0,0,0,0.31);
+
+}
+
+.client-name{
+    text-align: center;
+}
+
+.footer{
+    background: #281602;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 1rem 0;
+
+}
+
+.footer h1{
+    color: white;
+    font-weight: bold;
+}
+
+form button{
+    background: #c1976a;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sitemap a {
+    display: block;
+    font-size: 2ch;
+    line-height: 1cm;
+    color: #c1976a;
+    font-weight: bold;
+}
+
+.sitemap a:hover{
+    text-decoration: none;
+    color: #cfc1b1;
+}
+
+.sitemap .forward {
+    color: red;
+}
+
+.telephone a {
+    display: block;
+    font-size: 3ch;
+    line-height: 1cm;
+    color: #c1976a;
+    font-weight: bold;
+    transition: all 50ms
+}
+
+.telephone a:hover{
+    text-decoration: none;
+    color: #cfc1b1;
+}
+
+.copy{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #c1976a;
+}
+
