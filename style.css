@@ -113,8 +113,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 150px 50px 150px;
 }
 
 .review{
@@ -201,6 +200,13 @@ form button{
     text-decoration: none;
     color: #cfc1b1;
 }
+
+.sitemap a .bi-chevron-right, .bi-telephone-fill, .bi-envelope{
+    color: white;
+    padding-right: 10px;
+}
+
+
 
 .copy{
     padding: 10px;
