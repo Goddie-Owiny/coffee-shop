@@ -4,6 +4,10 @@ body{
     display: flexbox;
 }
 
+*.icon:hover{
+    cursor: pointer;
+}
+
 #header{
     display: flex;
     padding: 0.5rem 0 0 0;
@@ -47,7 +51,6 @@ a{
     padding-left: 3vh;
     border-radius: 5px 5px 0px 5px;
 }
-
 
 
 .nav ul a:first-child:hover{
@@ -195,7 +198,21 @@ a{
     padding: 20px 30px 20px 30px;
     text-align: center;
     box-shadow: 3px 0px 18px 12px rgba(0,0,0,0.31);
+    transition: all 1.5s;
+}
 
+.card-div:hover{
+    transform: scale(1.2,1.2);
+}
+
+.card-div a{
+    color: inherit;
+}
+
+.card-div a:hover{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
 }
 
 .client-name{
