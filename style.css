@@ -151,6 +151,7 @@ a{
     padding: 5px 20px 5px 20px;
     background: #251503;
     color: #c1976a;
+    border-radius: 5px;
     border: none;
     transition: all 0.7s;
 }
@@ -158,6 +159,7 @@ a{
 .button:hover{
     color: white;
     background-color: #6f4338;
+    transform: scale(1.2,1.2);
 }
 
 #card-container{
